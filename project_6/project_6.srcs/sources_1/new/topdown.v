@@ -57,7 +57,15 @@ module topdown(
     
     assign vgaBlue = 4'b0000;
     assign vgaRed= 4'b0000;
-    assign vgaGreen = 4'b0000;
+    //When is it green?
+    //Border: 8 pixels wide:
+    //pixels 0 - 7 horizontal and 631 - 639 should be green
+    //pixels 0 - 8 vertical and 471 - 479 should be green
+    assign vgaGreen = (H <= 3'b111) || (V <= 3'b111) ||  (h >= 10'b1001110111 && h <= 10'b1001111111) || (v >= 9'b111010111 && v <= 9'b111011111);
+
+    
+
+    
     
     
     
