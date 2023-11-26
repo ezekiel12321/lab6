@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701038349">
+  <File Type="BITSTR-BMM" Name="topdown_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="topdown_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="topdown_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="topdown_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="topdown.tcl"/>
+  <File Type="OPT-TIMING" Name="topdown_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="topdown_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="topdown_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="topdown_reports.tcl"/>
+  <File Type="OPT-DRC" Name="topdown_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="topdown.hwdef"/>
+  <File Type="PWROPT-DCP" Name="topdown_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="topdown_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="topdown_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="topdown_placed.dcp"/>
+  <File Type="PLACE-IO" Name="topdown_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="topdown_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="topdown_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="topdown_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="topdown_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="topdown_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="topdown_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="topdown.bgn"/>
+  <File Type="PLACE-TIMING" Name="topdown_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="topdown_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="topdown.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="topdown_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="topdown_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="topdown_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="topdown.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="topdown_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="topdown_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="topdown_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="topdown_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="topdown_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="topdown_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="topdown.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="topdown_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="topdown.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="topdown_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="topdown_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="topdown.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="topdown_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="topdown_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="topdown_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="topdown_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="topdown_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="topdown_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="topdown_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="topdown_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="topdown_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="topdown_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="topdown_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="topdown_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="topdown_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="topdown_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="topdown_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="topdown_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="topdown_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="topdown_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="topdown_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="topdown.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="topdown_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="topdown.rbt"/>
+  <File Type="BITSTR-NKY" Name="topdown.nky"/>
+  <File Type="BG-DRC" Name="topdown.drc"/>
+  <File Type="RDI-RDI" Name="topdown.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/PixelAddress.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../project_6/project_6.srcs/sources_1/new/PixelAddress.v"/>
+        <Attr Name="ImportTime" Val="1700601933"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Syncs.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/countUD4L.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Downloads/project_5/project_5.srcs/sources_1/imports/new/countUD4L.v"/>
+        <Attr Name="ImportTime" Val="1700599848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/counterUD16L.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Downloads/project_5/project_5.srcs/sources_1/imports/new/counterUD16L.v"/>
+        <Attr Name="ImportTime" Val="1700599848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/labVGA_clks.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Downloads/labVGA_clks.v"/>
+        <Attr Name="ImportTime" Val="1700597305"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topdown.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/archive_project_summary.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/StateMachine.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Decoder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../downloads/project_5/project_5.srcs/sources_1/imports/new/Decoder.v"/>
+        <Attr Name="ImportTime" Val="1698869053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/RingCounter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../downloads/project_5/project_5.srcs/sources_1/imports/new/RingCounter.v"/>
+        <Attr Name="ImportTime" Val="1698869054"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Selector.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../downloads/project_5/project_5.srcs/sources_1/imports/new/Selector.v"/>
+        <Attr Name="ImportTime" Val="1698869053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/hex7seg.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../downloads/project_5/project_5.srcs/sources_1/imports/new/hex7seg.v"/>
+        <Attr Name="ImportTime" Val="1698869053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Molecule.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="topdown"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../downloads/project_4/project_4.srcs/constrs_1/imports/Downloads/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1698869053"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
